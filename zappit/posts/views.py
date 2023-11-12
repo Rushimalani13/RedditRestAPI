@@ -47,3 +47,6 @@ class VoteCreate(generics.CreateAPIView,mixins.DestroyModelMixin):
             return Response(status=status.HTTP_204_NO_CONTENT)
         else:
             raise ValidationError("you never vote!")
+
+
+#feature 22
