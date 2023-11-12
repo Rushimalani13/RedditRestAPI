@@ -48,6 +48,4 @@ class VoteCreate(generics.CreateAPIView,mixins.DestroyModelMixin):
         else:
             raise ValidationError("you never vote!")
 
-
-
-# new feature
+#feature 22
